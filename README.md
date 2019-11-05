@@ -9,8 +9,11 @@ Tracks date, cost, category, and description of every transaction
 <h3>Procedures</h3>
 <b>add_month(mo varchar, y varchar)</b><br>
 mo - number of the month to be added
+
 y - year to be added
+
 This procedure copys a csv from 'C:\tmp\' and uses the filename 'Expenses - <Month Name> <Year last 2>.csv'.
+
 It converts the input month and year to the correct format.
   
 <b>replace_month(mo varchar, y varchar)</b><br>
@@ -19,6 +22,7 @@ Essentially the same as add_month, but this procedure first deletes from the exp
 <h3>Functions</h3>
 <b>category_totals(y integer)</b><br>
 y - year to evaluate
+
 This function finds subtotals for each distinct category in expenses and seperates them by month, as well as totaling both monthly costs and yearly category costs.
 
 <b>split_totals(y integer)</b><br>
