@@ -1,6 +1,8 @@
 # ExpensesDB
 Database for personal expenses with analytical views
 
+For personal privacy reasons, this repository does not contain any inital data
+
 <h3>Tables</h3>
 <b>expenses</b><br>
 The one and only table in this database that holds the source data
